@@ -1,4 +1,4 @@
-# Dependencies
+# some Dependencies
 node_modules/
 pnpm-lock.yaml
 
@@ -34,3 +34,6 @@ pnpm-debug.log*
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Agents
+AGENTS.md
