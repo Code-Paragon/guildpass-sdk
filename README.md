@@ -5,9 +5,10 @@
 
   <p>
     <a href="https://www.npmjs.com/package/@guildpass/sdk"><img src="https://img.shields.io/npm/v/@guildpass/sdk?style=flat-square&color=6366f1" alt="npm version" /></a>
-    <a href="https://github.com/guildpass/guildpass-sdk/actions"><img src="https://img.shields.io/github/actions/workflow/status/guildpass/guildpass-sdk/test.yml?branch=main&style=flat-square" alt="build status" /></a>
+    <a href="https://github.com/Adamantine-Guild/guildpass-sdk/actions"><img src="https://img.shields.io/github/actions/workflow/status/Adamantine-Guild/guildpass-sdk/test.yml?branch=main&style=flat-square" alt="build status" /></a>
     <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="license" /></a>
     <a href="https://typescriptlang.org"><img src="https://img.shields.io/badge/typescript-%23007acc.svg?style=flat-square&logo=typescript&logoColor=white" alt="typescript" /></a>
+    <a href="https://contribute.grantfox.xyz"><img src="https://img.shields.io/badge/GrantFox-open%20for%20contributions-orange?style=flat-square" alt="GrantFox" /></a>
   </p>
 
   <p align="center">
@@ -15,11 +16,14 @@
     <a href="#-installation">Installation</a> •
     <a href="#-quick-start">Quick Start</a> •
     <a href="#-documentation">Documentation</a> •
+    <a href="#-development">Development</a> •
     <a href="#-contributing">Contributing</a>
   </p>
 </div>
 
 ---
+
+> **Part of the [Adamantine-Guild](https://github.com/Adamantine-Guild) project** — a Web3 membership and token-gated community platform for the open-source ecosystem.
 
 ## 🛡️ About GuildPass
 
@@ -114,15 +118,29 @@ For more detailed guides and API references, check out:
 # Install dependencies
 pnpm install
 
-# Build for production
+# Build for production (tsup)
 pnpm build
 
-# Run unit tests
+# Watch mode for development
+pnpm dev
+
+# Run unit tests (watch)
 pnpm test
 
-# Lint and format
+# Run tests once (CI mode)
+pnpm test:run
+
+# Lint
 pnpm lint
+
+# Format
 pnpm format
+
+# Type checking
+pnpm typecheck
+
+# Generate TypeDoc API docs
+pnpm docs
 ```
 
 ## 🗺️ Roadmap
@@ -132,13 +150,22 @@ pnpm format
 - [ ] **React**: Official `@guildpass/react` hooks package.
 - [ ] **Caching**: Pluggable caching layer for high-performance apps.
 
-## 🤝 Contributing
+## 🤝 Contributing via GrantFox
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
+This repository is listed on **[GrantFox](https://contribute.grantfox.xyz)** for open contributions.
+
+### How to contribute
+
+1. Browse open issues tagged [`good first issue`](https://github.com/Adamantine-Guild/guildpass-sdk/issues?q=label%3A%22good+first+issue%22) or [`help wanted`](https://github.com/Adamantine-Guild/guildpass-sdk/issues?q=label%3A%22help+wanted%22).
+2. Apply for an issue on [GrantFox](https://contribute.grantfox.xyz) or comment on the GitHub issue.
+3. Fork the repo, create a feature branch, implement your change, open a PR.
+4. See [CONTRIBUTING.md](./CONTRIBUTING.md) for the full guide.
+
+**Maintainer resources**: [Maintainer app](https://maintainer.grantfox.xyz) · [GrantFox docs](https://docs.grantfox.xyz) · maintainers@guildpass.xyz
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See [LICENSE](./LICENSE) for more information.
 
 ---
 
